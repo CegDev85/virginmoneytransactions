@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+
+ 
+h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+ 
+li:last-child {
+  border: none;
+}
+
+.transaction-detail {
+ font-size:medium;
+ text-decoration: underline;
+ border-top: 1px solid #000000;
+ border-right: 1px solid #333333;
+ border-bottom: 1px solid #333333;
+ border-left: 1px solid #CCCCCC;
+ /* background-color:rgb(158, 152, 152); */
+ background-color:rgb(241, 181, 181);
+ box-shadow: 5px 5px 5px black;
+ margin-bottom: 2px;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.transaction-list {
+  font-size: small;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* border-top: 1px solid #000000;
+ border-right: 1px solid #333333;
+ border-bottom: 1px solid #333333;
+ border-left: 1px solid #CCCCCC;
+ background-color:rgb(158, 152, 152);
+ box-shadow: 5px 5px 5px black; */
+ margin-bottom: 2px;
+ text-align: center;
+ /* display: flex; */
+ justify-content: center;
+}
+
+.category-detail {
+  display: flex;
+  /* justify-content:space-around; */
+  font-size:small;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-top: 1px solid #000000;
+ border-right: 1px solid #333333;
+ border-bottom: 1px solid #333333;
+ border-left: 1px solid #CCCCCC;
+ background-color:rgb(241, 181, 181);
+ box-shadow: 5px 5px 5px black;
+ margin-bottom: 2px;
+ /* text-align: center; */
+ display: flex;
+ justify-content: center;
+}
+
+.category-list > li {
+  display: flex;
+}
+
+h2 {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:400;
+}
+
+
+
+
+
+

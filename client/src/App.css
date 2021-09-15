@@ -32,7 +32,6 @@ li:last-child {
  border-right: 1px solid #333333;
  border-bottom: 1px solid #333333;
  border-left: 1px solid #CCCCCC;
- /* background-color:rgb(158, 152, 152); */
  background-color:rgb(241, 181, 181);
  box-shadow: 5px 5px 5px black;
  margin-bottom: 2px;
@@ -45,21 +44,13 @@ li:last-child {
 .transaction-list {
   font-size: small;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  /* border-top: 1px solid #000000;
- border-right: 1px solid #333333;
- border-bottom: 1px solid #333333;
- border-left: 1px solid #CCCCCC;
- background-color:rgb(158, 152, 152);
- box-shadow: 5px 5px 5px black; */
  margin-bottom: 2px;
  text-align: center;
- /* display: flex; */
  justify-content: center;
 }
 
 .category-detail {
   display: flex;
-  /* justify-content:space-around; */
   font-size:small;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-top: 1px solid #000000;
@@ -69,7 +60,6 @@ li:last-child {
  background-color:rgb(241, 181, 181);
  box-shadow: 5px 5px 5px black;
  margin-bottom: 2px;
- /* text-align: center; */
  display: flex;
  justify-content: center;
 }

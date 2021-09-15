@@ -8,8 +8,7 @@ const CategorySelect = ({selectedCategory, setSelectedCategory, transactions}) =
 
     const [transactionHistory, setTransactionHistory] = useState([])
     const [selectedYear, setSelectedYear] = useState("*select a year above*")
-    // const [lowestSpend, setLowestSpend] = useState(0)
-    // const [highestSpend ,setHighestSpend] =useState(0) having issues with too many re rendors so potentially cant use this here
+
 
     useEffect(() => {
         searchTransactions()
